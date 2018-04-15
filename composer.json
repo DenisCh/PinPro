@@ -1,0 +1,12 @@
+{
+  "name": "pinpro/pin_api",
+  "license": "Apache-2.0",
+  "description": "API Framework for Pinterest.com",
+  "require": {
+    "php": "^5 || ^7",
+    "phpunit/phpunit": "5.4.*"
+  },
+  "autoload": {
+    "psr-4": {"Pinpro\\": "src/"}
+  }
+}
